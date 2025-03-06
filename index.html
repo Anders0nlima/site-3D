@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto 3D com Scroll</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <nav id="navbar">
+        <div class="navbar-container">
+          <a href="#curtas" class="navbar-logo">Cinema 3D</a>
+          <ul class="navbar-links">
+            <li><a href="#curtas">Curtas</a></li>
+            <li><a href="#trabalhos">Trabalhos</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#autor">Autor</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="scene-container"></div>
+
+      
+    <div id="welcome-text">
+        <h1>Bem-vindo ao Mundo do Cinema</h1>
+        <p>Explore meus trabalhos e projetos audiovisuais.</p>
+      </div>
+    
+
+  <div id="scene-container"></div>
+  <div id="content">
+    
+
+    <section id="curtas" class="content-section">
+        <h1>Curtas Metragens</h1>
+        <div class="curtas-container">
+          <div class="curta-card left">
+            <img src="assets/img/imagem1.jpg" alt="Curta 1">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa porro enim quisquam maxime tenetur ratione dolores quos aliquam. Aspernatur numquam officia et vero porro ex minima ab, quae consectetur commodi!</p>
+          </div>
+          <div class="curta-card left">
+            <img src="assets/img/imagem2.jpg" alt="Curta 2">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore delectus, soluta, libero quae magnam perspiciatis iure, autem quaerat accusamus amet nostrum mollitia vitae itaque reiciendis asperiores laudantium eius? Pariatur, perferendis!</p>
+          </div>
+          <div class="curta-card right">
+            <img src="assets/img/imagem3.jpg" alt="Curta 3">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, aliquam earum quos molestias culpa perspiciatis hic corrupti ratione vel provident quo aliquid cupiditate quia! Sapiente totam ipsum maxime? Iste, dolorum!</p>
+          </div>
+          <div class="curta-card right">
+            <img src="assets/img/imagem4.jpg" alt="Curta 4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, aperiam reiciendis? Voluptatibus cum iusto et, aliquam error odit aliquid aspernatur totam quod vero officia eius laboriosam voluptate hic. Numquam, ipsa.</p>
+          </div>
+        </div>
+      </section>
+
+
+    <section id="right" class="content-section">
+      <h1>Trabalhos Realizados</h1>
+      <p>Informações sobre os trabalhos já feitos.</p>
+    </section>
+    <section id="back" class="content-section">
+      <h1>Projetos Sociais</h1>
+      <p>Informações sobre os projetos sociais.</p>
+    </section>
+    <section id="left" class="content-section">
+      <h1>Sobre o Autor</h1>
+      <p>Informações sobre o autor.</p>
+    </section>
+  </div>
+  <!-- Three.js -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.146.0/build/three.min.js"></script>
+  <!-- GLTFLoader -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.146.0/examples/js/loaders/GLTFLoader.js"></script>
+  <!-- GSAP + ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+  <!-- Seu script principal -->
+  <script src="main.js"></script>
+</body>
+</html>
